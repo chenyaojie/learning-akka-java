@@ -1,4 +1,4 @@
-package me.coding.wetter.ch1.message;
+package me.coding.wetter.message;
 
 /**
  * @author G002299

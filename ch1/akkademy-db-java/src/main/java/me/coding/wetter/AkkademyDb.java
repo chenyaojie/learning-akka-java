@@ -1,11 +1,11 @@
-package me.coding.wetter.ch1;
+package me.coding.wetter;
 
 import akka.actor.typed.Behavior;
 import akka.actor.typed.javadsl.AbstractBehavior;
 import akka.actor.typed.javadsl.ActorContext;
 import akka.actor.typed.javadsl.Behaviors;
 import akka.actor.typed.javadsl.Receive;
-import me.coding.wetter.ch1.message.SetRequest;
+import me.coding.wetter.message.SetRequest;
 
 import java.util.HashMap;
 import java.util.Map;

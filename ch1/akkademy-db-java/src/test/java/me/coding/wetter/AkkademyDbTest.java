@@ -1,10 +1,10 @@
-package me.coding.wetter.ch1;
+package me.coding.wetter;
 
 import akka.actor.testkit.typed.javadsl.LoggingTestKit;
 import akka.actor.testkit.typed.javadsl.TestKitJunitResource;
 import akka.actor.typed.ActorRef;
 import com.typesafe.config.ConfigFactory;
-import me.coding.wetter.ch1.message.SetRequest;
+import me.coding.wetter.message.SetRequest;
 import org.junit.Before;
 import org.junit.ClassRule;
 import org.junit.Test;
